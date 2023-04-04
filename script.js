@@ -4,16 +4,13 @@ const darkMode = document.querySelector(".dark-layer");
 const menuElements = document.querySelector(".menu-list");
 const closeIcon = document.querySelector(".menu-list img");
 
-mobileMenu.addEventListener("click", revealMenu);
-
-function revealMenu() {
+mobileMenu.addEventListener("click", revealMenu = () => {
   darkMode.classList.toggle("active");
   menuElements.style.display = "block";
   closeIcon.addEventListener("click", closeMenu);
 }
-
-function closeMenu() {
+)
+const closeMenu = () => {
   darkMode.classList.toggle("active");
   menuElements.style.display = "none";
-  closeIcon.removeEventListener("click", closeMenu);
 }

@@ -56,7 +56,8 @@ body {
   display: none;
 }
 .menu-list {
-  display: none;}
+  display: none;
+}
 li {
   padding-left: 3rem;
 }
@@ -248,7 +249,8 @@ li:hover {
     font-size: 1.1rem;
   }
   .newone {
-position: absolute; 
-top: 2rem;
-left: calc(90% - 140px);}
+    position: absolute;
+    top: 2rem;
+    left: calc(90% - 140px);
+  }
 }

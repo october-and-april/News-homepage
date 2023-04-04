@@ -55,6 +55,8 @@ body {
 .mobile-menu {
   display: none;
 }
+.menu-list {
+  display: none;}
 li {
   padding-left: 3rem;
 }
